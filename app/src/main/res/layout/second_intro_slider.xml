@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/pale_lemon_yellow"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/first_intro_slide_image"
+        android:layout_alignParentTop="true"
+        android:layout_margin="@dimen/jarak20dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="@string/amazing_contents_text"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/jarak30sp" />
+
+    <ImageView
+        android:id="@+id/first_intro_slide_image"
+        android:layout_width="@dimen/jarak150dp"
+        android:layout_height="@dimen/jarak150dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/jarak10dp"
+        android:src="@drawable/easy"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/first_intro_slide_image"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/jarak10dp"
+        android:gravity="center"
+        android:text="@string/berisi_lebih_dari_50_konten_yang_bisa_digunakan_secara_gratis_text"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/jarak20sp" />
+</RelativeLayout>

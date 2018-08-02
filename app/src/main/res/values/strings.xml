@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Belajar Qiroati</string>
+    <string name="skip_button_text">SKIP</string>
+    <string name="next_button_text">NEXT</string>
+    <string name="start_button_text">START</string>
+    <string name="welcome_to_this_app_text">Welcome to QiroatiApp</string>
+    <string name="aplikasi_yang_berisi_pembelajaran_qiroati_4_jilid_beserta_ilmu_tajwid_dan_ghorib_text">Aplikasi yang berisi pembelajaran qiroati 4 jilid beserta ilmu tajwid dan ghorib.</string>
+    <string name="amazing_contents_text">Amazing Contents</string>
+    <string name="berisi_lebih_dari_50_konten_yang_bisa_digunakan_secara_gratis_text">Berisi lebih dari 50 konten yang bisa digunakan secara gratis.</string>
+    <string name="all_in_one_app_text">All in One App</string>
+    <string name="berisi_konten_pembelajaran_qiroati_4_jilid_lengkap_disertai_ilmu_tajwid_dan_gharib_text">Berisi konten pembelajaran qiroati 4 jilid lengkap disertai ilmu tajwid dan gharib.</string>
+    <string name="qiroati_1_text">ق ١</string>
+    <string name="qiroati_2_text">ق ٢</string>
+    <string name="qiroati_3_text">ق ٣</string>
+    <string name="qiroati_4_text">ق ٤</string>
+    <string name="tajwid_text">تجويد</string>
+    <string name="gharib_text">غارب</string>
+</resources>
