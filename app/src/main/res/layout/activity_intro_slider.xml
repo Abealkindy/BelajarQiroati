@@ -11,6 +11,7 @@
 
     <LinearLayout
         android:id="@+id/layoutDots"
+        tools:background="#000000"
         android:layout_width="match_parent"
         android:layout_height="@dimen/dots_height"
         android:layout_alignParentBottom="true"

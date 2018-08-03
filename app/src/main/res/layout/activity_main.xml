@@ -16,27 +16,27 @@
 
         <TextView
             android:id="@+id/second_qiroati_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/qiroati_2_text"
             android:textColor="@android:color/white"
-            android:textSize="70sp" />
+            android:textSize="@dimen/jarak50sp" />
 
         <TextView
             android:id="@+id/first_qiroati_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/qiroati_1_text"
             android:textColor="@android:color/white"
-            android:textSize="70sp" />
+            android:textSize="@dimen/jarak50sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -47,27 +47,27 @@
 
         <TextView
             android:id="@+id/fourth_qiroati_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/qiroati_4_text"
             android:textColor="@android:color/white"
-            android:textSize="70sp" />
+            android:textSize="@dimen/jarak50sp" />
 
         <TextView
             android:id="@+id/third_qiroati_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/qiroati_3_text"
             android:textColor="@android:color/white"
-            android:textSize="70sp" />
+            android:textSize="@dimen/jarak50sp" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -78,26 +78,26 @@
 
         <TextView
             android:id="@+id/tajwid_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentStart="true"
             android:layout_marginStart="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/tajwid_text"
             android:textColor="@android:color/white"
-            android:textSize="50sp" />
+            android:textSize="@dimen/jarak30sp" />
 
         <TextView
             android:id="@+id/tajwid_gharib_text"
-            android:layout_width="@dimen/img_width_height"
-            android:layout_height="@dimen/img_width_height"
+            android:layout_width="@dimen/jarak100dp"
+            android:layout_height="@dimen/jarak100dp"
             android:layout_alignParentEnd="true"
             android:layout_marginEnd="@dimen/jarak20dp"
             android:background="@drawable/ground_button_place"
             android:gravity="center"
             android:text="@string/gharib_text"
             android:textColor="@android:color/white"
-            android:textSize="50sp" />
+            android:textSize="@dimen/jarak30sp" />
     </RelativeLayout>
 </LinearLayout>

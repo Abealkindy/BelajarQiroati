@@ -24,7 +24,7 @@
         android:layout_height="@dimen/jarak150dp"
         android:layout_centerInParent="true"
         android:layout_margin="@dimen/jarak10dp"
-        android:src="@drawable/easy"
+        android:src="@drawable/amaze"
         tools:ignore="ContentDescription" />
 
 
