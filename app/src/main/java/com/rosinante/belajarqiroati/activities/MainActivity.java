@@ -48,9 +48,13 @@ public class MainActivity extends AppCompatActivity {
     public void onClick(View view) {
         switch (view.getId()) {
             case R.id.first_qiroati_text:
+                //First video
                 YoutubeVideosModel videoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
                 youtubeVideosModels.add(videoList);
-
+                //Second video
+                videoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(videoList);
+                //Third video
                 videoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
                 youtubeVideosModels.add(videoList);
 
@@ -60,13 +64,34 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(firstIntent);
                 break;
             case R.id.second_qiroati_text:
+                //First video
+                YoutubeVideosModel secondVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(secondVideoList);
+                //Second video
+                secondVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(secondVideoList);
+                //Third video
+                secondVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(secondVideoList);
                 Intent secondIntent = new Intent(MainActivity.this, ReaderActivity.class);
                 secondIntent.putExtra("qiroatiPDF", "jiliddua.pdf");
+                secondIntent.putExtra("videoUrls", (Serializable) youtubeVideosModels);
                 startActivity(secondIntent);
                 break;
             case R.id.third_qiroati_text:
+                //First video
+                YoutubeVideosModel thirdVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(thirdVideoList);
+                //Second video
+                thirdVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(thirdVideoList);
+                //Third video
+                thirdVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
+                youtubeVideosModels.add(thirdVideoList);
+
                 Intent thirdIntent = new Intent(MainActivity.this, ReaderActivity.class);
                 thirdIntent.putExtra("qiroatiPDF", "jilidtiga.pdf");
+                thirdIntent.putExtra("videoUrls", (Serializable) youtubeVideosModels);
                 startActivity(thirdIntent);
                 break;
             case R.id.fourth_qiroati_text:
