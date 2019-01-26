@@ -26,4 +26,5 @@
     <dimen name="jarak40sp">40sp</dimen>
     <dimen name="jarak5dp">5dp</dimen>
     <dimen name="jarak170dp">170dp</dimen>
+    <dimen name="jarak180dp">180dp</dimen>
 </resources>

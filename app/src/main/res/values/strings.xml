@@ -15,4 +15,5 @@
     <string name="qiroati_4_text">ق ٤</string>
     <string name="tajwid_text">تجويد</string>
     <string name="gharib_text">غارب</string>
+    <string name="title_activity_reader">ReaderActivity</string>
 </resources>

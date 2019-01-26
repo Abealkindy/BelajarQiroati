@@ -2,7 +2,7 @@
 <resources>
     <color name="colorPrimary">#31994d</color>
     <color name="colorPrimaryDark">#2C8945</color>
-    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccent">#31994d</color>
     <color name="pale_lemon_yellow">#F29938</color>
     <color name="pale_lemon_yellow_more">#e6bf3e</color>
     <color name="pale_lavender">#885BC0</color>
