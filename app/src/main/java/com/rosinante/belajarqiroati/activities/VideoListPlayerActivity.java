@@ -6,10 +6,10 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.rosinante.belajarqiroati.R;
+import com.rosinante.belajarqiroati.adapter.RecyclerYoutubeVideosAdapter;
 import com.rosinante.belajarqiroati.models.YoutubeVideosModel;
 
 import java.util.List;
-import java.util.Vector;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
