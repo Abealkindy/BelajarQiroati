@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="@color/colorPrimaryDark"
     android:orientation="vertical">
 
     <TextView
@@ -24,15 +24,15 @@
         android:layout_height="@dimen/jarak150dp"
         android:layout_centerInParent="true"
         android:layout_margin="@dimen/jarak10dp"
-        android:src="@drawable/qiro3"
+        android:src="@drawable/trysecondlogo"
         tools:ignore="ContentDescription" />
 
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
         android:layout_below="@+id/first_intro_slide_image"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:layout_margin="@dimen/jarak10dp"
         android:gravity="center"

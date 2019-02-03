@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="colorPrimary">#31994d</color>
-    <color name="colorPrimaryDark">#2C8945</color>
+    <!--<color name="colorPrimaryDark">#208E51</color>-->
+    <color name="colorPrimaryDark">#247E3A</color>
     <color name="colorAccent">#31994d</color>
     <color name="pale_lemon_yellow">#F29938</color>
     <color name="pale_lemon_yellow_more">#e6bf3e</color>
