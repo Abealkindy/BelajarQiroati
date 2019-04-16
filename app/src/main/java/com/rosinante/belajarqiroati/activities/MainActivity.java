@@ -21,20 +21,19 @@ import butterknife.OnClick;
 public class MainActivity extends AppCompatActivity {
 
 
-    @BindView(R.id.jilid_satu_icon)
-    ImageView jilidSatuIcon;
-    @BindView(R.id.jilid_dua_icon)
-    ImageView jilidDuaIcon;
-    @BindView(R.id.jilid_tiga_icon)
-    ImageView jilidTigaIcon;
-    @BindView(R.id.jilid_empat_icon)
-    ImageView jilidEmpatIcon;
-    @BindView(R.id.tajwid_icon)
-    ImageView tajwidIcon;
-    @BindView(R.id.ghorib_icon)
-    ImageView ghoribIcon;
-
     List<YoutubeVideosModel> youtubeVideosModels = new ArrayList<>();
+    @BindView(R.id.firstjilidicon)
+    ImageView firstjilidicon;
+    @BindView(R.id.secondjilidicon)
+    ImageView secondjilidicon;
+    @BindView(R.id.thirdjilidicon)
+    ImageView thirdjilidicon;
+    @BindView(R.id.fourthjilidicon)
+    ImageView fourthjilidicon;
+    @BindView(R.id.tajwidicon)
+    ImageView tajwidicon;
+    @BindView(R.id.ghoribicon)
+    ImageView ghoribicon;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,11 +42,10 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.jilid_satu_icon, R.id.jilid_dua_icon, R.id.jilid_tiga_icon, R.id.jilid_empat_icon, R.id.tajwid_icon, R.id.ghorib_icon})
+    @OnClick({R.id.firstjilidicon, R.id.secondjilidicon, R.id.thirdjilidicon, R.id.fourthjilidicon, R.id.tajwidicon, R.id.ghoribicon})
     public void onClick(View view) {
         switch (view.getId()) {
-            case R.id.jilid_satu_icon:
-                youtubeVideosModels.clear();
+            case R.id.firstjilidicon:
                 //First video
                 YoutubeVideosModel videoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/djtRQyA6KJw\" frameborder=\"0\" allowfullscreen></iframe>");
                 youtubeVideosModels.add(videoList);
@@ -78,8 +76,7 @@ public class MainActivity extends AppCompatActivity {
                 firstIntent.putExtra("videoUrls", (Serializable) youtubeVideosModels);
                 startActivity(firstIntent);
                 break;
-            case R.id.jilid_dua_icon:
-                youtubeVideosModels.clear();
+            case R.id.secondjilidicon:
                 //First video
                 YoutubeVideosModel secondVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
                 youtubeVideosModels.add(secondVideoList);
@@ -94,8 +91,7 @@ public class MainActivity extends AppCompatActivity {
                 secondIntent.putExtra("videoUrls", (Serializable) youtubeVideosModels);
                 startActivity(secondIntent);
                 break;
-            case R.id.jilid_tiga_icon:
-                youtubeVideosModels.clear();
+            case R.id.thirdjilidicon:
                 //First video
                 YoutubeVideosModel thirdVideoList = new YoutubeVideosModel("<iframe width=\"100%\" height=\"100%\" src=\"https://www.youtube.com/embed/eWEF1Zrmdow\" frameborder=\"0\" allowfullscreen></iframe>");
                 youtubeVideosModels.add(thirdVideoList);
@@ -111,13 +107,13 @@ public class MainActivity extends AppCompatActivity {
                 thirdIntent.putExtra("videoUrls", (Serializable) youtubeVideosModels);
                 startActivity(thirdIntent);
                 break;
-            case R.id.jilid_empat_icon:
+            case R.id.fourthjilidicon:
                 Toast.makeText(this, "Fourth", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.tajwid_icon:
+            case R.id.tajwidicon:
                 Toast.makeText(this, "Tajwid", Toast.LENGTH_SHORT).show();
                 break;
-            case R.id.ghorib_icon:
+            case R.id.ghoribicon:
                 Toast.makeText(this, "Gharib", Toast.LENGTH_SHORT).show();
                 break;
         }
